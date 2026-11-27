@@ -1,0 +1,171 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.22000}\viewkind4\uc1 
+\pard\sa200\sl240\slmult1\f0\fs24\lang9\par
+Exploratory Data Analysis for Machine Learning\par
+
+\pard\sa200\sl240\slmult1\qc\b\fs36 Week 1.\par
+A brief history of AI and its applications\par
+Learning Objectives\b0\fs24\par
+
+\pard\sa200\sl240\slmult1 Artificial Intelligence is not new, but it is new in a sense that it is easier than ever to get started using Machine Learning in business settings. In this module, we will go over a quick introduction to AI and Machine Learning and we will visit a brief history of the modern AI. We will also explore some of the current applications of AI and Machine Learning for you, to think about how you want to leverage them in your day to day business practice or personal projects.\par
+Learning Objectives\par
+Become familiar with common Machine Learning vocabulary and the Machine Learning Workflow\par
+Become familiar with Modern AI applications, including Computer Vision and Natural Language Processing\par
+Become familiar with the chronology of Artificial Intelligence, including AI booms and AI winters\par
+Become familiar with the definitions of Artificial Intelligence, Machine Learning, and Deep Learning\par
+\par
+
+\pard\sa200\sl240\slmult1\qc\b\fs52 Review\b0\fs24\par
+
+\pard\sa200\sl240\slmult1 Introduction to Artificial Intelligence and Machine Learning\par
+Artificial Intelligence is a branch of computer science dealing with the simulation of intelligent behavior in computers. Machines mimic cognitive functions such as learning and problem solving. \par
+\par
+Machine learning is the study of programs that are not explicitly programmed, but instead these algorithms learn patterns from data. \par
+\par
+Deep learning is a subset of machine learning in which multilayered neural networks learn from vast amounts of data.   \par
+\par
+\b\fs32 History of AI \par
+\b0\fs24 AI has experienced cycles of AI winters and AI booms. \par
+\par
+AI solutions include speech recognition, computer vision, assisted medical diagnosis, robotics, and others.   \par
+\par
+\b\fs32 Modern AI \par
+\b0\fs24 Factors that have contributed to the current state of Machine Learning are: bigger data sets, faster computers, open-source packages, and a wide range of neural network architectures.   \par
+\par
+\b\fs32 Machine Learning Workflow \par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\b0\fs24 The machine learning workflow consists of: \par
+{\pntext\f1\'B7\tab}Problem statement\par
+{\pntext\f1\'B7\tab}Data collection\par
+{\pntext\f1\'B7\tab}Data exploration and preprocessing\par
+{\pntext\f1\'B7\tab}Modeling\par
+{\pntext\f1\'B7\tab}Validation\par
+{\pntext\f1\'B7\tab}Decision Making and Deployment\par
+
+\pard\sa200\sl240\slmult1\par
+\b\fs28 This is a summary of the common taxonomy for data in open-source packages for Machine Learning: \b0\fs24\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 target: category or value you are trying to predict\par
+
+\pard\sa200\sl240\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 features: explanatory variables used for prediction\par
+
+\pard\sa200\sl240\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 example: an observation or single data point within the data\par
+
+\pard\sa200\sl240\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 label: the value of the target for a single data point\par
+
+\pard\sa200\sl240\slmult1\par
+\par
+
+\pard\sa200\sl240\slmult1\qc\b\fs36 Week 2\par
+Retrieving and Cleaning Data\par
+
+\pard\sa200\sl240\slmult1\b0 Good data is the fuel that powers Machine Learning and Artificial Intelligence. In this module, you will learn how to retrieve data from different sources, and how to clean it to ensure its quality.\par
+\b\fs44 Learning Objectives\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\b0\fs36 Retrieve data from multiple data sources: SQL, NoSQL databases, APIs, Cloud\par
+{\pntext\f1\'B7\tab}Describe the importance of data cleaning and common data cleaning techniques\par
+{\pntext\f1\'B7\tab}Identify different ways of dealing with missing data\par
+{\pntext\f1\'B7\tab}Determine how to deal with outliers through plots and various statistical calculations\par
+{\pntext\f1\'B7\tab}Determine how to deal with outliers through residual analysis\b\par
+
+\pard\sa200\sl240\slmult1\fs52 Summary/Review\par
+\b0\fs36 Retrieving Data\par
+You can retrieve data from multiple sources:\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 SQL databases\par
+{\pntext\f1\'B7\tab}NoSQL databases\par
+{\pntext\f1\'B7\tab}APIs\par
+{\pntext\f1\'B7\tab}Cloud data sources\par
+
+\pard\sa200\sl240\slmult1\par
+The two most common formats for delimited data flat files are comma separated (csv) and tab separated (tsv). It is also possible to use special characters as separators.\par
+\par
+SQL represents a set of relational databases with fixed schemas.\par
+\par
+\b\fs44 Reading in Database Files\par
+\b0\fs36 The steps to read in a database file using the sqlite library are:\par
+\par
+create a path variable that references the path to your database\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 create a connection variable that references the connection to your database\par
+
+\pard\sa200\sl240\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 create a query variable that contains the SQL query that reads in the data table from your database\par
+
+\pard\sa200\sl240\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 create an observations variable to assign the read_sql functions from pandas package\par
+
+\pard\sa200\sl240\slmult1\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 create a tables variable to read in the data from the table sqlite_master\par
+
+\pard\sa200\sl240\slmult1\par
+JSON files are a standard way to store data across platforms. Their structure is similar to Python dictionaries.\par
+\par
+NoSQL databases are not relational and vary more in structure. Most NoSQL databases store data in JSON format.\par
+\par
+\b\fs48 Data Cleaning\par
+\b0\fs36 Data Cleaning is important because messy data will lead to unreliable outcomes.Some common issues that make data messy are: duplicate or unnecessary data, inconsistent data and typos, missing data, outliers, and data source issues.\par
+\par
+You can identify duplicate or unnecessary dataCommon policies to deal with missing data are:remove a row with missing columns, impute the missing data, and mask the data by creating a category for missing values.\par
+\par
+Common methods to find outliers are: through plots, statistics, or residuals.\par
+\par
+Common policies to deal with outliers are: remove outliers, impute them, use a variable transformation, or use a model that is resistant to outliers.\par
+\par
+\b Exploratory Data Analysis and Feature Engineering \b0\par
+In this module you will learn how to conduct exploratory analysis to visually confirm it is ready for machine learning modeling by feature engineering and transformations.\par
+Learning Objectives\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1 Determine different approaches and techniques in Exploratory Data Analysis\par
+{\pntext\f1\'B7\tab}Describe Visualization and Grouping data for EDA\par
+{\pntext\f1\'B7\tab}Identify Transformation of Data Distributions: Log Transform\par
+{\pntext\f1\'B7\tab}Identify Feature Encoding: Nominal and Ordinal features\par
+{\pntext\f1\'B7\tab}Articulate why feature scaling is important and use a variety of scaling techniques\par
+
+\pard\sa200\sl240\slmult1\b\fs56\par
+\par
+Summary/Review\par
+\b0\fs40 Exploratory Data Analysis\par
+EDA is an approach to analyzing data sets that summarizes their main characteristics, often using visual methods. It helps you determine if the data is usable as-is, or if it needs further data cleaning.\par
+\par
+EDA is also important in the process of identifying patterns, observing trends, and formulating hypothesis.\par
+\par
+Common summary statistics for EDA include finding summary statistics and producing visualizations.\par
+\par
+\b\fs48 Feature Engineering and Variable Transformation\par
+\b0\fs40 Transforming variables helps to meet the assumptions of statistical models. A concrete example is a linear regression, in which you may transform a predictor variable such that it has a linear relation with a target variable.\par
+\par
+Common variable transformations are: calculating log transformations and polynomial features, encoding a categorical variable, and scaling a variable. \par
+\par
+\b\fs52 Week 4\par
+\b0 Inferential Statistics and Hypothesis Testing\par
+\fs36\par
+Inferential statistics and hypothesis testing are two types of data analysis often overlooked at early stages of analyzing your data. They can give you quick insights about the quality of your data. They also help you confirm business intuition and help you prescribe what to analyze next using Machine Learning. This module looks at useful definitions and simple examples that will help you get started creating hypothesis around your business problem and how to test them.\par
+\b\fs48 Learning Objectives\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl240\slmult1\b0\fs36 Understand statistical estimation and inference\par
+{\pntext\f1\'B7\tab}Recognize parametric and non-parametric approaches to modeling\par
+{\pntext\f1\'B7\tab}Become familiarized with the most common statistical distributions\par
+{\pntext\f1\'B7\tab}Fundamental understanding of frequentist vs. Bayesian statistics\par
+{\pntext\f1\'B7\tab}Hands-on experience communicating insights to peers and stakeholders\par
+{\pntext\f1\'B7\tab}Hands-on experience providing insights from data\par
+{\pntext\f1\'B7\tab}Hands-on experience assessing the quality of data\par
+{\pntext\f1\'B7\tab}Hands-on experience on Exploratory Data Analysis\par
+
+\pard\sa200\sl240\slmult1\par
+\par
+\fs24\par
+}
+ 
